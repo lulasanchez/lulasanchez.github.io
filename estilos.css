@@ -1,0 +1,124 @@
+* {
+	Font-family: 'Poppins', sans-serif;
+	padding: 0;
+    margin:0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.inicio {
+    background: linear-gradient(rgba(0,0,0.3),rgba(0,0,0.3) );
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.inicio .contenido{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido header{
+    padding: 30px;
+}
+.inicio .contenido header nav{
+    position: fixed;
+    margin-left: 60px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio .contenido header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+.inicio .contenido header .contenidomenu {
+    position: fixed;
+    background-color: blue;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.inicio .contenido .informacion {
+    padding-bottom: 130px;
+}
+.inicio .contenido .informacion h1{
+font-size: 3rem;
+letter-spacing: 5px;
+}
+.inicio .contenido .informacion h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+.inicio .contenido .informacion .iconos{
+    margin: 20px 0;
+}
+.inicio .contenido .informacion .iconos a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.inicio .contenido .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: center;
+}
+.perfil{
+    background-color: white;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.perfil .contenido{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.experiencia{
+    background-color: white;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.experiencia .contenido{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.estudios {
+    background-color: white;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.estudios .contenido {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+    
+}
+.listaestudios{
+    list-style: none;
+}
+.listaexperiencia{
+    list-style: none;
+}
